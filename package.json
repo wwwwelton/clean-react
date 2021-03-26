@@ -1,7 +1,9 @@
 {
   "name": "clean-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJs Rest API using TDD, Clean Architecture and Typescript",
+  "author": "Welton Leite",
+  "license": "GNU GPL3",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
@@ -11,8 +13,6 @@
     "test:ci": "npm test -- --coverage"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
     "@types/axios": "^0.14.0",
